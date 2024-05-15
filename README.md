@@ -1,20 +1,20 @@
-git clone:
+# git clone:
 
 git clone https://github.com/reicha2/HW_clone_env_req
 
 
-סביבה וירטואלית:
+# סביבה וירטואלית:
 
-התקנת הסביבה
+## התקנת הסביבה
  python -m virtualenv env
 
-לאחר מכן צריך להפעיל את הסביבה 
+## לאחר מכן צריך להפעיל את הסביבה
 .\env\Scripts\activate
 
 
-התקנת דרישות תוכנה:
+## התקנת דרישות תוכנה:
 pip install -r requirements.txt
 
-הרצת התוכנית:
+## הרצת התוכנית:
 py app.py
 (יש לוודא שאתם מריצים את הפקודה מהנתיב הנכון)
